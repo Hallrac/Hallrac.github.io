@@ -1,0 +1,627 @@
+
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font: .8em 'Lato', sans-serif !important;
+	background-color : #fff;
+	background-image: url('../images/background.jpg');
+	background-size: cover;
+	padding: 20px;
+}
+
+p {
+	font-size: 20px;
+	text-align: center;
+  font:'Lato', sans-serif !important;
+	
+}
+
+.link{
+	color: #fff;
+}
+
+.change_to_black { 
+	color: #000;
+}
+
+.change_to_white {
+	color: #fff;
+}
+
+.link:hover{
+	color: #000;
+}
+
+h3{
+  font:'Lato', sans-serif !important;
+	font-size: 40px;
+	color: #fff;
+}
+
+h5 {
+  font:'Lato', sans-serif !important;
+	color: #000;
+}
+
+.lead {
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+}
+a:hover {
+	
+}
+ul {
+	margin-left:10px;
+}
+img {
+	border: 0px;
+}
+
+#wrap {
+	margin: 20px auto;
+	width: 550px;
+	padding: 10px;
+	background-color: #fff;
+	border:1px solid #000;
+}
+#header {
+	background-color : #278DCF;
+	text-align:center;
+	color: #FFF; 
+	padding: 0px;
+    background-image : url('../images/medicalbanner.jpg');
+	background-size: cover;
+	border: 1px solid #000;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+#header_txt {
+	position:relative;
+    left:340px;
+    top:40px;
+	font: 20px 'Lato', sans-serif !important;
+    margin: 0px; padding:0px;
+}
+
+#header h1 {
+	padding-left: 10px;
+	padding-top: 12px;
+	font-size: 25px;
+	color: #278DCF;
+}
+#header h1 a {
+	font-size: 25px;
+	color: #31799F;
+	text-decoration: none;
+}
+#header h2 {
+	padding-left: 10px;
+	padding-top: 0px;
+	font-size: 14px;
+	color: #fff;
+	background-image: url(../images/prescription.jpg);
+}
+#header h3 {
+	padding-left: 10px;
+	padding-top: 0px;
+	font-size: 14px;
+	color: #fff;
+}
+#menu {
+	text-align: center;
+	margin-top: 12px;
+	font-size : 11px;
+	padding: 2px;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif !important;
+	border: 0px solid #D8E3EE;
+	background-color: #278DCF;
+}
+#menu a {
+	background-color: #278DCF;
+	text-decoration : none;
+	padding: 10px;
+}
+#menu a:hover {
+	color : #2e99ff;
+}
+#content {
+	text-align: left;
+	margin-top: 5px;
+	padding: 10px;
+	font-size: 11px;
+}
+
+#content h1 {
+        text-align:center;
+}
+
+
+#content h2 {
+	font-size: 15px;
+	color : #444;
+	padding: 0 0 5px 0;
+}
+#footer {
+	margin-top: 25px;
+	clear: both;
+	text-align: center;
+	color: #fff;
+	font-size:10px;
+	background-color:#fff;
+	padding:2px;
+}
+.meta {
+	padding-bottom:2px;
+	font-size: 10px;
+	color:#999999;
+	font: 'Lato', sans-serif !important;
+}
+#bottom {
+	font-size:11px;
+	padding: 10px 0 0 0;
+}
+#bottomleft {
+	width:45%;
+	float:left;
+	background:#fff;
+	padding-bottom:10px;
+	padding-left:5px;
+}
+#bottomright {
+	width:45%;
+	float:right;
+	background:#fff;
+	padding-bottom:10px;
+	padding-right:5px;
+}
+#divider {
+	text-align: center;
+	font-size : 11px;
+	padding:2px;
+	font-weight: bold;
+	font-family: 'Lato', sans-serif !important;
+}
+
+.top-bar{
+	background-color: #278DCF;
+}
+
+.top-bar ul{
+	background-color: #278DCF;
+}
+
+.thumbnail{
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+	
+
+}
+
+.column{
+	text-align: center;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.menu{
+	float: right;
+	font-size: 20px;
+	text-align: center;
+}
+
+.text_center {
+	color: #fff;
+	text-align: center;
+	background-image: url('../images/medicalbanner.jpg');
+	background-size: cover;
+	background-color: #FFFAFA;
+  	padding: 20px;
+  	margin-right: 25px;
+  	margin-left: 25px;
+  	box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.text {
+    position: relative;
+	text-align: center;
+ 	background:#278DCF;
+  	opacity:0;
+  }
+
+ .callout{
+ 	background-image: url('../images/background2.jpg');
+	background-size: cover;
+  	background-color: #FFFAFA;
+  	padding: 20px;
+  	margin-right: 55px;
+  	margin-left: 55px;
+  	box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+  }
+
+.container{
+	float: left;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+#myCarousel{
+	background-color: #f0f0f0;
+	margin-left: 25px;
+	margin-right: 25px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 75%;
+      margin: auto;
+  }
+
+.row-column{
+	/* background-image: url('../images/footer.png'); */
+	background-size: cover;
+}
+
+#myNavbar a:hover {
+	color: #2e99ff;
+}
+
+#navbar{
+	margin-left: 25px;
+  float: right;
+}
+
+.jumbotron{
+	background-color: #F0F0F0;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 5px;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: center;
+	/*background-image: url('../images/background2.jpg');*/
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.jumbotronClone{
+  background-color: #F0F0F0;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+.headline{
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.jumbotron1{
+	background-image: url('../images/nutrition.jpg');
+	background-size: cover;
+	padding: 40px;
+  	margin-right: 40px;
+  	margin-left: 40px;
+    border: 1px solid #000;
+    border-radius: 0;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.jumbotron1:hover .text {
+	background-image: url('../images/background2.jpg');
+	background-size: cover;
+	border: 1px solid #ccc;
+	opacity:30;
+ 	text-align:center;
+  	color:#000;
+   	font-size:20px;
+    font-weight:700;
+    font-family: 'Lato', sans-serif !important;
+  	margin-right: 40px;
+  	margin-left: 40px;
+  }
+
+.hovereffect {
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+  margin: 0px auto;
+}
+
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  
+  -webkit-transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
+  transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
+}
+
+.hovereffect:hover .overlay {
+  background-color: rgba(248, 248, 255, 0.4);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transform: translateY(45px);
+  -ms-transform: translateY(45px);
+  transform: translateY(45px);
+  -webkit-transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
+  transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
+}
+
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(5px);
+  -ms-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
+.hovereffect a.info {
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  text-decoration: none;
+  padding: ;
+  font-size: 18px;
+  text-align: left;
+  text-transform: ;
+  color: #000;
+  background-color: transparent;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.4s  cubic-bezier(248,-0.99, 0, 1.81);
+  transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
+  font-weight: bold;
+  margin: -40px 0 0 0;
+  padding: 62px 100px;
+}
+
+.hovereffect:hover a.info {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+
+
+
+.ih-item {
+  position: relative;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.ih-item,
+.ih-item * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.ih-item a {
+  color: #333;
+}
+.ih-item a:hover {
+  text-decoration: none;
+}
+.ih-item img {
+  width: 500px;
+  height: 400px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+.ih-item.square.effect13 {
+  overflow: hidden;
+}
+.ih-item.square.effect13.colored .info {
+  background: #1a4a72;
+  background: rgba(26, 74, 114, 0.6);
+}
+.ih-item.square.effect13.colored .info h3 {
+  background: rgba(12, 34, 52, 0.6);
+}
+.ih-item.square.effect13 .img {
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.ih-item.square.effect13 .info {
+  background: #333333;
+  background: rgba(0, 0, 0, 0.6);
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+.ih-item.square.effect13 .info h3 {
+  text-transform: ;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  background: #278DCF;
+  margin: 30px 0 0 0;
+}
+.ih-item.square.effect13 .info p {
+  font-style: italic;
+  font-size: 18px;
+  position: relative;
+  color: #fff;
+  padding: 20px 20px 20px;
+  text-align: center;
+}
+.ih-item.square.effect13 a:hover .img {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.ih-item.square.effect13 a:hover .info {
+  visibility: visible;
+  opacity: 1;
+}
+
+.ih-item.square.effect13.left_to_right .info {
+  -webkit-transform: translateX(-100%);
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -o-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+.ih-item.square.effect13.left_to_right a:hover .info {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.ih-item.square.effect13.right_to_left .info {
+  -webkit-transform: translateX(100%);
+  -moz-transform: translateX(100%);
+  -ms-transform: translateX(100%);
+  -o-transform: translateX(100%);
+  transform: translateX(100%);
+}
+.ih-item.square.effect13.right_to_left a:hover .info {
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.ih-item.square.effect13.top_to_bottom .info {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+.ih-item.square.effect13.top_to_bottom a:hover .info {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.ih-item.square.effect13.bottom_to_top .info {
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  -o-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.ih-item.square.effect13.bottom_to_top a:hover .info {
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0);
+}
+
+#success_message{ display: none;}
+
+legend{
+	text-align: center;
+}
+
+#map-container { 
+	height: 400px;
+	padding-left: 5px;
+  padding-right: 25px;
+  padding-bottom: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+ }
+
+.name{
+  font-style: bold;
+  font-size: 30px;
+  font: 'Lato', sans-serif !important;
+}
+
+.name img{
+  /* height: 40px; for medical logo */
+  height: 60px;
+  margin-top: 5px;
+  margin-left: 5px;
+  background-color: #000;
+}
+
+.name img{
+  margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
